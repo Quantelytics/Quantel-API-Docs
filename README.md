@@ -1,0 +1,1 @@
+This repository contains all API documentations of Quantel AI.
