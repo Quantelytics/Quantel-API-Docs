@@ -1,4 +1,4 @@
-# Asset Vantage Portfolio API
+# X-RAY Portfolio API
 
 ## Overview
 This API allows clients to **create** and **update** portfolio information and holdings data in the system.
