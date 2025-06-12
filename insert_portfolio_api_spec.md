@@ -36,7 +36,7 @@ Content-Type: application/json
 
 | Field          | Type   | Create Required | Update Required | Description                            |
 |----------------|--------|-----------------|-----------------|----------------------------------------|
-| username       | string | ✅              | ✅              | Unique user identifier (email)         |
+| user_name       | string | ✅              | ✅              | Unique user identifier (email)         |
 | account_id     | string | ✅              | ✅              | Portfolio ID                           |
 | portfolio_name | string | ❌              | ❌              | Name of the portfolio                  |
 | first_name     | string | ✅              | ❌              | User’s first name                      |
@@ -62,7 +62,7 @@ curl -X POST https://optimizer.stage.tenjin-api.com/upload_portfolio \
   -H "Authorization: x-api-key abc123" \
   -H "Content-Type: application/json" \
   -d '{
-    "username": "sample_user",
+    "user_name": "sample_user",
     "portfolio_name": "Growth_Portfolio",
     "account_id": "JD-GROWTH"
     "first_name": "John",
