@@ -37,7 +37,7 @@ Content-Type: application/json
 | Field          | Type   | Create Required | Update Required | Description                            |
 |----------------|--------|-----------------|-----------------|----------------------------------------|
 | username       | string | ✅              | ✅              | Unique user identifier (email)         |
-| account_id     | string | ✅              | ✅              | Portfolio ID                           |
+| account_id     | string | ✅              | ✅              | Account ID                             |
 | portfolio_name | string | ❌              | ❌              | Name of the portfolio                  |
 | first_name     | string | ✅              | ❌              | User’s first name                      |
 | last_name      | string | ✅              | ❌              | User’s last name                       |
@@ -49,6 +49,7 @@ Content-Type: application/json
 - **Date format**: `YYYY-MM-DD`
 - **Example**:
   ```csv
+  date,ticker,weights,units_held,units_cost,currency
   2024-01-01,NVDA,0.10,100,150.00,USD
   2024-01-01,TSLA,0.90,200,250.00,USD
   2024-02-01,QQQ,0.95,300,5.00,USD
