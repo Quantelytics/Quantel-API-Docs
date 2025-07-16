@@ -63,7 +63,7 @@ curl -X POST https://optimizer.stage.tenjin-api.com/upload_portfolio \
   -H "Authorization: x-api-key abc123" \
   -H "Content-Type: application/json" \
   -d '{
-    "username": "sample_user",
+    "user_name": "sample_user",
     "portfolio_name": "Growth_Portfolio",
     "account_id": "JD-GROWTH"
     "first_name": "John",
