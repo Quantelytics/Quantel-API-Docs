@@ -120,3 +120,4 @@ curl -X POST https://optimizer.stage.tenjin-api.com/upload_portfolio \
 - Use ticker `$TJCASH` to represent cash holdings.
 - Dates must follow ISO format `YYYY-MM-DD`.
 - After adding, please visit https://web-staging.tenjin-ai.com/ and sign in with the same email used in API call. 
+- Please allow up to 10 minutes for the portfolio to appear in the web interface. 
