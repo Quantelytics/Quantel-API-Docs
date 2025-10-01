@@ -5,7 +5,7 @@ This API allows clients to **create** and **update** portfolio information and h
 
 ## Base URL
 ```
-https://optimizer.stage.tenjin-api.com
+https://optimizer.dev.tenjin-api.com
 ```
 
 ## Authentication
@@ -59,7 +59,7 @@ Content-Type: application/json
 ### Example Request (Create)
 
 ```bash
-curl -X POST https://optimizer.stage.tenjin-api.com/upload_portfolio \
+curl -X POST https://optimizer.dev.tenjin-api.com/upload_portfolio \
   -H "Authorization: x-api-key abc123" \
   -H "Content-Type: application/json" \
   -d '{
@@ -119,5 +119,5 @@ curl -X POST https://optimizer.stage.tenjin-api.com/upload_portfolio \
 - For each rebalance date (same `date`), all `weights` must sum to 1.
 - Use ticker `$TJCASH` to represent cash holdings.
 - Dates must follow ISO format `YYYY-MM-DD`.
-- After adding, please visit https://web-staging.tenjin-ai.com/ and sign in with the same email used in API call. 
+- After adding, please visit https://web-preview.tenjin-ai.com/ and sign in with the same email used in API call. 
 - Please allow up to 10 minutes for the portfolio to appear in the web interface. 
